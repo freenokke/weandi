@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- <link rel="stylesheet" href="css/reset.css"> -->
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/media.css"> -->
+
+    <script>
+      // Get the video
+      var video = document.getElementById("myVideo");
+      
+      // Get the button
+      var btn = document.getElementById("myBtn");
+      
+      // Pause and play the video, and change the button text
+      function myFunction() {
+          if (video.paused) {
+              video.play();
+              btn.innerHTML = "Pause";
+          } else {
+              video.pause();
+              btn.innerHTML = "Play";
+          }
+      }
+      </script>
+
+    <style>
+      @font-face {
+        font-family: GothamPro;
+        src: url(fonts/GothamPro.ttf);
+      }
+      @font-face {
+        font-family: GothamProBlack;
+        src: url(fonts/GothamPro-Black.ttf);
+      }
+      @font-face {
+        font-family: GothamProLight;
+        src: url(fonts/GothamPro-Light.ttf);
+      }
+      @font-face {
+  font-family: GothamProBold;
+  src: url(fonts/GothamPro-Bold.ttf);
+}
+    
+    </style>
+  </head>
+  <body>
+    <div class="menu">
+      <header class="header" >
+      <div class="logo">
+          <img src="svg/logo1.svg" width="120px" alt="">
+      </div>
+      <div class="nav">
+        <ul>
+          <li><a href=""> про доход </a></li>
+          <li><a href=""> зарабатывай с нами </a></li>
+          <li><a href=""> О нас </a></li>
+          <li><a href=""> Контакты </a></li>
+        </ul>
+      </div>
+    </header>
+    </div>
+
+    <section class="main">
+
+           
+      <video autoplay muted loop id="myVideo">
+        <iframe width="100%" height="100%" src=></iframe>
+        <source src="gendalf.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen >
+      </video>
+      
+      <!-- Optional: some overlay text to describe the video -->
+      <div class="video_content">
+        <div class="main_box">
+          <div class="left_main">
+            <div class="title">
+              <img src="svg/title.svg" width="85%" alt="">
+            </div>
+            <div class="textarea">
+              Первый в России lifestyle отель,
+              созданный специально
+              для путешественников
+              нового поколения.
+
+              
+            </div>
+            <div class="main_btn">
+              <a data-fancybox data-src="#modal2" href="javascript:;" class="default_btn" href="">Купить номер «под ключ»
+                в отеле и получать доход от аренды</a>
+            </div>
+          </div>
+          <div class="right_main">
+            <div class="play_btn">
+              <img src="svg/play_btn.svg" width="360px" alt="">
+            </div>
+            <div class="playtext">
+              Короткое обзорное видео о кондо
+              отелях краткосрочного размещения
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="win">
+
+      <!-- <div class="slider_main">
+        <img src="svg/main_slider-15.svg" width="800px" alt="">
+      </div> -->
+      <div class="background_win">
+        
+      
+
+      <div class="header_win">
+        <div class="title">
+          <img src="svg/title.svg" width="600px" alt="">
+        </div>
+        <div class="subtitle">
+          Приносим инвесторам доход с сентября 2020 года!
+        </div>
+      </div>
+<div class="item_box">
+<div class="left_item">
+
+      <div class="win1">
+        <div class="icon_win">
+          <img src="svg/icon-05.svg" width="50px" alt="">
+        </div>
+        <div class="item_title">
+          Тип недвижимости
+        </div>
+        <div class="item_subtitle">
+          Номер в отеле «под ключ»
+        </div>
+      </div>
+
+      <div class="win1">
+        <div class="icon_win">
+          <img src="svg/icon-06.svg" width="50px" alt="">
+        </div>
+        <div class="item_title">
+          Тип недвижимости
+        </div>
+        <div class="item_subtitle">
+          Номер в отеле «под ключ»
+        </div>
+      </div>
+
+      <div class="win1">
+        <div class="icon_win">
+          <img src="svg/icon-07.svg" width="50px" alt="">
+        </div>
+        <div class="item_title">
+          Тип недвижимости
+        </div>
+        <div class="item_subtitle">
+          Номер в отеле «под ключ»
+        </div>
+      </div>
+
+</div>
+<div class="center_item">
+
+      <div class="win1">
+        <div class="icon_win">
+          <img src="svg/icon-05.svg" width="50px" alt="">
+        </div>
+        <div class="item_title">
+          Тип недвижимости
+        </div>
+        <div class="item_subtitle">
+          Номер в отеле «под ключ»
+        </div>
+      </div>
+
+      <div class="win1">
+        <div class="icon_win">
+          <img src="svg/icon-06.svg" width="50px" alt="">
+        </div>
+        <div class="item_title">
+          Тип недвижимости
+        </div>
+        <div class="item_subtitle">
+          Номер в отеле «под ключ»
+        </div>
+      </div>
+
+      <div class="win1">
+        <div class="icon_win">
+          <img src="svg/icon-07.svg" width="50px" alt="">
+        </div>
+        <div class="item_title">
+          Тип недвижимости
+        </div>
+        <div class="item_subtitle">
+          Номер в отеле «под ключ»
+        </div>
+      </div>
+
+</div>
+<div class="right_item">
+      <div class="win1">
+        <div class="icon_win">
+          <img src="svg/icon-05.svg" width="50px" alt="">
+        </div>
+        <div class="item_title">
+          Тип недвижимости
+        </div>
+        <div class="item_subtitle">
+          Номер в отеле «под ключ»
+        </div>
+      </div>
+
+      <div class="win1">
+        <div class="icon_win">
+          <img src="svg/icon-06.svg" width="50px" alt="">
+        </div>
+        <div class="item_title">
+          Тип недвижимости
+        </div>
+        <div class="item_subtitle">
+          Номер в отеле «под ключ»
+        </div>
+      </div>
+
+      <div class="win1">
+        <div class="icon_win">
+          <img src="svg/icon-07.svg" width="50px" alt="">
+        </div>
+        <div class="item_title">
+          Тип недвижимости
+        </div>
+        <div class="item_subtitle">
+          Номер в отеле «под ключ»
+        </div>
+      </div>
+</div>
+
+</div>
+<div class="win_btn">
+  <a data-fancybox data-src="#amoforms_iframe_719635" href="javascript:;" class="" href="">Узнать подробности</a>
+</div>
+
+    </div>
+
+</section>
+<section class="vant">
+<div class="vant_container">
+  <div class="vant_main">
+    преимущества проекта
+  </div>  
+<div class="vant_itembox">
+  <div class="vant_item">
+    <div class="vant_title">
+      1
+    </div>
+    <div class="vant_text">
+      Мы построенны!
+    </div>
+    <div class="vant_subtext">
+      Наш отель уже построен
+      и введен в эксплуатацию,
+      никаких строительных рисков
+    </div>
+  </div>
+
+  <div class="vant_item">
+    <div class="vant_title">
+      1
+    </div>
+    <div class="vant_text">
+      Мы построенны!
+    </div>
+    <div class="vant_subtext">
+      Наш отель уже построен
+      и введен в эксплуатацию,
+      никаких строительных рисков
+    </div>
+  </div>
+
+  <div class="vant_item">
+    <div class="vant_title">
+      1
+    </div>
+    <div class="vant_text">
+      Мы построенны!
+    </div>
+    <div class="vant_subtext">
+      Наш отель уже построен
+      и введен в эксплуатацию,
+      никаких строительных рисков
+    </div>
+  </div>
+</div>
+  <div class="vant_line">
+
+  </div>
+  <div class="vant_box">
+    <div class="vant_leftbox">
+      <div class="vant_leftbox_title">
+        Прошлись по чек-листу
+      </div>
+      Подключились ко всем системам бронирования
+
+      Заключили соглашения о размещении
+      с корпоративными туристами
+
+      Собираем сотни лайков в соцсетях
+
+      Собрали крутую команду управления, которая точно
+      знает, как сделать счастливым нашего туриста
+
+      Обрели в вашем лице инвестора
+
+    </div>
+    <div class="vant_rightbox">
+      Купить номер
+      «под ключ» в действующем
+      отеле и сразу получать
+      арендный доход 
+    </div>
+  </div>
+
+
+  </div>
+  
+  <div class="how_box">
+    <div class="background_howbox">
+      <img src="svg/how_img.svg" class="circle1" width="150px" alt="">
+      <img src="svg/how_img1.svg" class="circle2" width="150px" alt="">
+    
+    <div class="how_box_content">
+    
+    <div class="how_leftbox">
+      <div class="how_leftbox_title">
+        Ипотека в нашем отеле приносит доход.
+        Разбираемся на сухих цифрах
+      </div>
+      Номер категории Studio
+
+      Общая цена номера с отделкой и мебелью
+составляет 4 020 000 рублей
+
+Первоначальный взнос по ипотеке равен 20%
+или 804 000 рублей
+
+
+Ставка процента составляет 8,5%,
+срок - 20 лет.
+      <div class="how_leftbox_btn">
+        получить подробный калькулятор
+      </div>
+
+    </div>
+    <div class="how_rightbox">
+      <img src="svg/infographic-21.svg" width="490px" alt="">
+    </div>
+  </div></div>
+</div>
+</section>
+<section class="project">
+  <div class="project_fill">
+<div class="project_item">
+  <div class="project_title">
+    Сколько зарабатывает инвестор?
+  </div>
+  <div class="project_line">
+  <div class="project_inner">
+    <div class="project_box"><!--
+        <div class="box_title"> 
+        14,5 м2
+        1 -->
+      </div> 
+      <div class="box_img">
+        <img src="svg/project-23.svg" width="150px" alt="">
+      </div>
+      <div class="box_text"><!--
+        от 3,2 млн
+      до 15% годовых-->
+      </div>
+  </div>
+
+  <div class="project_inner">
+    <div class="project_box"><!--
+        <div class="box_title"> 
+        14,5 м2
+        1 -->
+      </div> 
+      <div class="box_img">
+        <img src="svg/project-23.svg" width="150px" alt="">
+      </div>
+      <div class="box_text"><!--
+        от 3,2 млн
+      до 15% годовых-->
+      </div>
+  </div>
+
+
+  <div class="project_inner">
+    <div class="project_box"><!--
+        <div class="box_title"> 
+        14,5 м2
+        1 -->
+      </div> 
+      <div class="box_img">
+        <img src="svg/project-23.svg" width="150px" alt="">
+      </div>
+      <div class="box_text"><!--
+        от 3,2 млн
+      до 15% годовых-->
+      </div>
+  </div>
+
+
+  <div class="project_inner">
+    <div class="project_box"><!--
+        <div class="box_title"> 
+        14,5 м2
+        1 -->
+      </div> 
+      <div class="box_img">
+        <img src="svg/project-23.svg" width="150px" alt="">
+      </div>
+      <div class="box_text"><!--
+        от 3,2 млн
+      до 15% годовых-->
+      </div>
+  </div>
+
+
+  <div class="project_inner">
+    <div class="project_box"><!--
+        <div class="box_title"> 
+        14,5 м2
+        1 -->
+      </div> 
+      <div class="box_img">
+        <img src="svg/project-23.svg" width="150px" alt="">
+      </div>
+      <div class="box_text"><!--
+        от 3,2 млн
+      до 15% годовых-->
+      </div>
+  </div>
+
+
+  <div class="project_inner">
+    <div class="project_box"><!--
+        <div class="box_title"> 
+        14,5 м2
+        1 -->
+      </div> 
+      <div class="box_img">
+        <img src="svg/project-23.svg" width="150px" alt="">
+      </div>
+      <div class="box_text"><!--
+        от 3,2 млн
+      до 15% годовых-->
+      </div>
+  </div>
+
+
+    
+  </div>
+  <div class="project_btn">
+    получить подробный калькулятор
+  </div>
+</div>
+</div>
+
+
+</section>
+<!-- Секция со слайдером -->
+<div class="project_background">
+    <img src="svg/background_project-22-2.png" width="100%" alt="">
+</div>
+<div class="slider_second_text">
+  <div class="box_text">
+    <p>Отель, который в тренде</p>
+  </div>
+</div>
+<section class="slider_second">
+  <div class="slider_second_container">
+      <img src="svg/project-slider3.svg" class="slider_second_outbackground" alt="">
+      <div class="swiper-container photo-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="svg/background_win-14.png" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="svg/austin-distel-VvAcrVa56fc-unsplash.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="svg/stanley-dai-73OZYNjVoNI-unsplash.jpg" alt="">
+            </div>
+        </div>
+      </div>
+      <div class="swiper_buttons">
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+  </div>
+</section>
+<div class="project_background">
+  <img src="svg/background_project-22.png" width="100%" alt="">
+</div>
+
+                                    <!-- /Секция со слайдером -->
+
+<section class="load">
+  
+  <div class="map_patterntop">
+  <img src="svg/pattern-16.svg" class="pattern_map" alt="">
+  </div>
+      <div class="load_items">
+        <div class="load_itemsleft">
+          <div class="loadtitle">
+          Мы в одном шаге <br>
+          от 100% загрузки, <br><br>  </div>
+          <div class="loadtitle2">
+            Вы - в одном решении <br>
+      от получения дохода
+            </div><br>
+            <div class="loadtitle3">
+            Купить стало просто!<br>
+      Проводим сделку с электронной<br>
+      регистрацией договора.
+    </div>
+
+    <div class="loadtitle4">
+    Всего 30 минут вашего времени на подписание договора <br>
+    в приятной компании менеджера и за чашкой ароматного<br>
+    кофе в нашем офисе - и договор уже отправлен на регистрацию.<br>
+  </div>
+    </div>
+    <div class="loadimg_test">
+    <img src="svg/pattern_load-25.svg" width="400px" alt="">
+        <div class="load_itemsright">
+         
+          Собственность<br><br>
+
+Единовременная оплата 100% <br><br>
+
+Рассрочка:<br>
+Индивидуальные условия<br><br>
+
+Ипотека:<br>
+Вносите первоначальный взнос,<br>
+все остальное оплачивает ваш номер<br><br>
+
+Специальные условия:<br>
+При повторной покупке, а также<br>
+единовременном приобретении<br>
+нескольких номеров,<br>
+предоставляются<br>
+индивидуальные условия<br>
+        </div>
+      </div>
+      </div>
+      
+      <img src="svg/pattern-16.svg" class="pattern_load2" alt="">
+    
+  
+  
+  
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="team">
+  <div class="fill_team">
+<div class="team_left">
+  <div class="team_title">
+    100% стабильный арендный доход <br>
+Без вашего личного участия
+  </div>
+  <div class="team_text">
+    Чем больше гостей - тем больше ваша прибыль, но ваши временные затраты <br>
+на управление всегда равны одной минуте - ровно столько времени потребуется, <br>
+чтобы согласовать отчет в личном кабинете и получить доход на карту
+
+  </div>
+  <div class="team_items">
+    <div class="team_items_left">
+
+      <span class="bold1"> 2000 </span>  <br>
+гостиничных <br>
+номеров<br><br>
+
+<span class="bold1"> 5 000 </span><br>
+сотрудников<br><br>
+
+<span class="bold1"> 8 000 000 </span> кв м<br>
+в управлении<br><br>
+
+почти <span class="bold1"> 30 лет </span><br>
+на рынке недвижимости<br><br>
+
+У компании открыты
+собственные офисы
+в Лондоне, Москве и Санкт-Петербурге
+    </div>
+    <div class="team_items_right">
+      <a href=""> <img src="/svg/team-24.svg" class="team_img" alt="">
+    </div>
+  </div>
+  
+</div>
+
+</div>
+</section>
+
+
+
+
+
+<section class="map">
+<div class="map_patterntop">
+<img src="/svg/pattern-16.svg" class="pattern_map" alt="">
+</div>
+<div class="maptitle">
+  Большой <br>
+Сампсониевский 74к2 <br>
+Санкт-Петербург <br>
+</div>
+
+  <div class="map_background">
+    <img src="/svg/map_background-23.svg" class="map_back" alt="">
+    <div class="map_items">
+      <div class="map_itemsleft">
+        <span class="bold"> 658 </span> <br> номеров<br> <br> 
+
+        <span class="bold">1000 кв м </span> общественных <br> 
+        пространств<br> <br> 
+
+        <span class="bold"> 15 </span> этажей<br> <br> 
+
+        <span class="bold"> Бесконечное количество<br> 
+        воспоминаний, </span>которые<br> 
+        создадут наши гости<br> <br> 
+
+        <span class="bold">Новая точка притяжения  </span><br> 
+        на карте города<br> <br> 
+      </div>
+      <div class="map_itemsright">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1996.3069903923606!2d30.336196616191547!3d59.97681836598002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469633e0e76c974f%3A0xafbddf16001aa85f!2z0JHQvtC70YzRiNC-0Lkg0KHQsNC80L_RgdC-0L3QuNC10LLRgdC60LjQuSDQv9GALiwg0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LM!5e0!3m2!1sru!2sru!4v1610528255830!5m2!1sru!2sru" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+    </div>
+  </div>
+  <div class="map_patternbutton">
+    <img src="/svg/pattern-16.svg" class="pattern_map2" alt="">
+  </div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="contact" >
+  <a name="contacty" href=""></a>
+  <div class="contant_background">
+    <div class="contact_title">
+      Просто приезжайте в гости
+    </div>
+    <div class="contactbox">
+      <div class="left">
+     
+            <div class="contact_text">
+    И мы обсудим преимущества и статус каждого проекта 
+     за чашкой вкусного кофе или чая - у нас интересно, красиво
+     и познавательно, а информации в офисе намного больше,
+     чем мы можем разместить на сайте
+      <p>МОСКВА</p>
+      Дубининская улица, 53, строение 5
+      бизнес-центр "Квартал-Сити"
+      +7 (495) 463-80-80
+      <p>САНКТ-ПЕТЕРБУРГ</p>
+      Большой Сампсониевский проспект,>
+      61А БЦ БЕКАР
+      +7 (812) 490-70-10
+    </div>
+    <div class="contact_img">
+      <img src="svg/contact.png" alt="">
+    </div>
+  </div>
+  <div class="right">      
+  <div class="contact_img2">
+    <img src="svg/footer_picture3.jpg" alt="">
+  </div>
+</div>
+  </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div id="">
+    
+  Оставьте заявку и мы свяжемся с Вами в ближайшее время, чтобы подобрать подходящий проект
+
+  <form>
+    <input type="email" placeholder="Ваш Eмейл">
+    <input type="textarea" placeholder="Ваш вопрос">
+  </form>
+  <div class="check">
+    нажимая кнопку вы соглашаетесь согласие на обработку персональных данных
+  </div>
+</div> -->
+
+
+<div id="modal2">
+    
+  Оставьте заявку и мы свяжемся с Вами в ближайшее время, чтобы подобрать подходящий проект
+
+  <form>
+    <input type="text" placeholder="Ваше имя">
+    <input type="tel" placeholder="Ваш телефон">
+    <input type="email" placeholder="Ваш Eмейл">
+    <input type="submit" value="отправить">
+  </form>
+  <div class="check">
+    нажимая кнопку вы соглашаетесь согласие на обработку персональных данных
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+<script src="js/jquery.fancybox.min.js"></script>
+<script>
+  var amo_forms_params = {id:"719635",hash:"1e82443a1215469c4552fa15295aca05",locale:"ru",setMeta:function(p){this.params=(this.params||[]).concat([p])}};</script><script id="amoforms_script" async="async" charset="utf-8" src="https://forms.amocrm.ru/forms/assets/js/amoforms.js?1611249963">
+</script>
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/main.js"></script>
+  </body>
+</html>
